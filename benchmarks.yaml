@@ -1,0 +1,60 @@
+common:
+  step_mas: 0.03
+  half_cut_mas: 0.30
+  ncut: 110
+  mask: "core"
+
+sources:
+  - id: M87
+    fits: "data/M87/1228+126.u.2025_01_12.icn.fits"
+    axis_reg: "data/ds9/M87_axis.reg"
+    mass_Msun: 6.5e9
+    distance_Mpc: 16.8
+
+  - id: 3C_273
+    fits: "data/3C_273/1226+023.u.2025_06_01.icn.fits"
+    axis_reg: "data/ds9/3C_273_axis.reg"
+    mass_Msun: 1.15e9
+    distance_Mpc: 745
+
+  - id: 3C_120
+    fits: "data/3C_120/0430+052.u.2025_06_01.icn.fits"
+    axis_reg: "data/ds9/3C_120_axis.reg"
+    mass_Msun: 6.3e7
+    distance_Mpc: 145
+
+  - id: NGC_6251
+    fits: "data/NGC_6251/1637+826.u.2013_08_12.icn.fits"
+    axis_reg: "data/ds9/NGC_6251_axis.reg"
+    mass_Msun: 6.0e8
+    distance_Mpc: 105
+
+  - id: NGC_1052
+    fits: "data/NGC_1052/0238-084.u.2025_03_16.icn.fits"
+    axis_reg: "data/ds9/NGC_1052_axis.reg"
+    mass_Msun: 1.5e8
+    distance_Mpc: 19.6
+
+  - id: BL_Lac
+    fits: "data/BL_Lac/2200+420.u.2025_06_01.icn.fits"
+    axis_reg: "data/ds9/BL_Lac_axis.reg"
+    mass_Msun: 3.0e8
+    distance_Mpc: 305
+
+  - id: 3C_111
+    fits: "data/3C_111/0415+379.u.2025_06_01.icn.fits"
+    axis_reg: "data/ds9/3C_111_axis.reg"
+    mass_Msun: 5.0e8
+    distance_Mpc: 210
+
+  - id: 3C_84
+    fits: "data/3C_84/0316+413.u.2025_06_01.icn.fits"
+    axis_reg: "data/ds9/3C_84_axis.reg"
+    mass_Msun: 4.0e8
+    distance_Mpc: 70
+
+  - id: 3C_264
+    fits: "data/3C_264/1142+198.u.2020_12_01.icn.fits"
+    axis_reg: "data/ds9/3C_264_axis.reg"
+    mass_Msun: 4.7e8
+    distance_Mpc: 90

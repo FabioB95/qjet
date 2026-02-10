@@ -1,0 +1,3 @@
+# Region file format: DS9 version 4.1
+global color=green dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
+image; polyline(476.19444,520.63889,442.86111,541.47222,421.33333,580.36111,484.52778,550.5,526.59638,527.29083,556.05556,476.19444,496.62584,497.32028,482.44444,510.22222)

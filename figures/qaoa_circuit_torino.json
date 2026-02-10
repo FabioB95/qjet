@@ -1,0 +1,11 @@
+{
+  "basis": [
+    "rz",
+    "sx",
+    "x",
+    "cz"
+  ],
+  "seed_transpiler": 42,
+  "depth": 2,
+  "size": 12
+}
